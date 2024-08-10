@@ -1,23 +1,25 @@
 import { HiShieldCheck } from "react-icons/hi";
 import { MdCancel, MdAnalytics } from "react-icons/md";
+
 const data = [
   {
-    icon: <HiShieldCheck/>,
+    icon: <HiShieldCheck />,
     heading: "Best interest rates on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We offer competitive interest rates that help maximize your savings while minimizing your financial risks.",
   },
   {
     icon: <MdCancel />,
     heading: "Prevent unstable prices",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Our innovative solutions are designed to help you avoid market fluctuations and ensure price stability for your investments.",
   },
   {
     icon: <MdAnalytics />,
     heading: "Best price on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "With our advanced analytics, we provide you with the best prices available, giving you a significant market advantage.",
   },
 ];
+
 export default data;
